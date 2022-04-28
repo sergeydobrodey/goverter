@@ -9,3 +9,7 @@ require (
 	golang.org/x/tools v0.1.10
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
+
+replace (
+    golang.org/x/tools => golang.org/x/tools@f4515dde7950dcca340dbca4670ff90b06e3d1d2
+)
